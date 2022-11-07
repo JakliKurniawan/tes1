@@ -1,0 +1,26 @@
+.mn ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:aqua;
+}
+.mn li{display: inline ; float: left;}
+.mn li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color :rgb(132, 0, 255); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+} 
+.mn li a:hover{
+    color: rgb(255, 0, 0);
+    background-color: black;
+}
+.footer{
+    position: fixed;
+    bottom : 0;
+    color : aqua;
+}
